@@ -22,7 +22,6 @@ This is a second iteration of the Social Network Application. Requirements inclu
 
 ## Features
 
-List of features ready and TODOs for future development
 * User can log in and it will show the main-page which have all other people post. There is navbar that user can go to profile, friend-list, chat room or search for other people
 * On profile, user will able to see their own profile and posts. User can also update their profile.
 * On friend-list, user will able to see all users exsiting.
