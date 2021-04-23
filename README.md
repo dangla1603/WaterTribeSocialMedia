@@ -75,6 +75,13 @@ To-do list:
 * You can log out and it will bring you back to landing page. You can also use forget-password to recover your password, you will need valid email to able to recieve the email that help you enter new password.
 ![forget](https://user-images.githubusercontent.com/43182305/115811129-c5a07480-a3b4-11eb-9d7f-8ae2c98abe82.PNG)
 
+## Contributors
+  Team Water Tribe
+    Christian Kent      - https://github.com/kentx178
+    Chris Bonner        - https://github.com/Skorne
+    Nicholas Haselden   - https://github.com/nwhaselde
+    Dang La             - https://github.com/dangla1603
+
 ## License
 
 This project uses the following license: [<license_name>](<link>).
