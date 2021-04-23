@@ -77,10 +77,10 @@ To-do list:
 
 ## Contributors
   Team Water Tribe
-    Christian Kent      - https://github.com/kentx178
-    Chris Bonner        - https://github.com/Skorne
-    Nicholas Haselden   - https://github.com/nwhaselde
-    Dang La             - https://github.com/dangla1603
+    * Christian Kent      - https://github.com/kentx178
+    * Chris Bonner        - https://github.com/Skorne
+    * Nicholas Haselden   - https://github.com/nwhaselde
+    * Dang La             - https://github.com/dangla1603
 
 ## License
 
