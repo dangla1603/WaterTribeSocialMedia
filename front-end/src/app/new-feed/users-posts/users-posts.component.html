@@ -1,0 +1,28 @@
+<div class = "row">
+    <div class="card gedf-card" *ngFor =' let temp of post'>
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="mr-2">
+                        <img class="rounded-circle" width="45" [src]= 'temp.userID.image' alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="h5 m-0">@ {{temp.userID.username}}</div>
+                        <div class="h5 m-0">{{temp.userID.firstName}} {{temp.userID.lastName}}</div>
+                        <div class="h7 text-muted"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body" >
+                <p class="card-text">{{temp.body}}</p>
+            </div>
+            <div>    
+                <div class="card-footer">
+                    <a class="card-link"><i class="fa fa-gittip"></i> {{temp.likes.length}} Like</a>
+                    <a class="card-link"><i class="fa fa-comment"></i> Comment</a>
+                    <a class="card-link"><i class="fa fa-mail-forward"></i> Share</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>

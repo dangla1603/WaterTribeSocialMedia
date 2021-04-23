@@ -1,0 +1,19 @@
+<div class="container" >
+    <div id="content" class="content p-0">
+        <div class="profile-header">
+            <div class="profile-header-cover"></div>
+            <div class="profile-header-content">
+                <div class="profile-header-img mb-4">
+                    <img [src]= 'user.image' class="mb-4" alt="" />
+                </div>
+    
+                <div class="profile-header-info">
+                    <h4 class="h5 m-0">@{{user.username}}</h4>
+                    <h4 class="h5 m-0"> {{user.firstName}} {{user.lastName}}</h4>
+                    <br>
+                    <a [routerLink] = "['/update-user',user.username]" class="btn btn-xs btn-primary mb-2">Edit Profile</a>                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

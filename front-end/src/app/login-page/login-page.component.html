@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+  
+</head>
+<body>
+    <img class="float_left logo" [src] = "myImage" alt=''width="100" height="100">
+    <div class="title">Welcome to Our Social Media App</div>
+    <form id="login-form" class="form-background" (submit) = 'loginButton($event)' >
+        <div class="mb-3">
+          <label for="inputUserName" class="form-label">Your Account</label>
+          <input id="inputUserName" type="text" placeholder="Enter your username" class="form-control" name="thatUsername" 
+                [(ngModel)]='currentUser.username' [ngModelOptions]="{standalone: true}">
+          <div id="userNameHelp" class="form-text">Here we are keeping your secret.</div>
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword" class="form-label">Password</label>
+          <input id="inputPassword" [(ngModel)]='currentUser.password'  [ngModelOptions]="{standalone: true}" type="password" placeholder="Enter your password" class="form-control" name ="thatPassword">
+        </div>
+        <div class="mb-3 form-check ">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class = 'btn btn-danger' >
+                Login
+            </button>
+        </div>
+        <div class = "register" >
+          <!-- LINK NOW REDIRECTS TO REGISTER PAGE -->
+          <a routerLink='/register' >register</a>
+          
+        </div>
+        <div class = "forget">
+          <a routerLink='/forget-password'>Forgot Password?</a>
+        </div>
+    </form>
+    
+    <footer>
+      Author : Water Tribe
+    </footer>
+</body>
+</html>

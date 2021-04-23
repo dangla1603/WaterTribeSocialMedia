@@ -1,0 +1,43 @@
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" routerLink ='/login'>Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                </ul>
+            </div>
+        </div>
+    </nav> 
+</div>
+
+<div class="title">New User Registration</div>
+<form id="login-form" class="form-background">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="First Name" [(ngModel)]='myNewUser.firstName' [ngModelOptions]="{standalone: true}" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Last Name" [(ngModel)]='myNewUser.lastName' [ngModelOptions]="{standalone: true}" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" [(ngModel)]='myNewUser.username' [ngModelOptions]="{standalone: true}" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email Address" [(ngModel)]='myNewUser.email' [ngModelOptions]="{standalone: true}" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" placeholder="Password" [(ngModel)]='myNewUser.password' [ngModelOptions]="{standalone: true}" aria-describedby="basic-addon1">
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-danger" routerLink="/login" (click)="registerButton()">submit</button>
+    </div>
+</form>

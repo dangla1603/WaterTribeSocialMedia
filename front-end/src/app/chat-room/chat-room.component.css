@@ -1,0 +1,29 @@
+.chat{
+    margin-top: 10rem;
+}
+
+div.chat-content{
+    border-radius: .25rem;
+    height:40rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    height: 100%;
+    
+}
+
+/* Style buttons */
+.toggle-emoji {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 4px 12px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .toggle-emoji:hover {
+    background-color: RoyalBlue;
+  }

@@ -1,0 +1,36 @@
+<br>
+<div>
+  <button class = "backButton" (click) = 'backButton()'>Back</button>
+</div>
+<br>
+
+<form id= 'update-form' class= "form-background" (submit)= 'formSubmit($event)'>
+    <!-- first name -->
+    <div class="input-group mb-3">
+        <label for="inputUserName" class="form-label">First Name</label>
+        <input id= 'fname' type="text" class="form-control" placeholder="First Name" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <!-- last name -->
+    <div class="input-group mb-3">
+        <label for="inputUserName" class="form-label">Last Name</label>
+        <input id= 'lname' type="text" class="form-control" placeholder="Last name" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <!-- email -->
+    <div class="input-group mb-3">
+        <label for="inputUserName" class="form-label">E-mail</label>
+        <input id= 'email' type="email" class="form-control" placeholder="example@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class= 'btn btn-danger'>Submit Changes</button> 
+    </div>
+ 
+</form>
+<br>
+<form id='update-image' class= "form-background" (submit)= 'imageUploadButton($event)'>
+    <div class="input-group mb-3">
+        <input type="file" class="form-control" id="postImage">
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class= 'btn btn-danger'>Upload Image</button>
+    </div>
+</form>

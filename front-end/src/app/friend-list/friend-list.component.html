@@ -1,0 +1,35 @@
+<br>
+<div>
+  <button class = "backButton" (click) = 'backButton()'>Back</button>
+</div>
+<br>
+<div class="search-friend">
+    <input type="search" id="myInput" [(ngModel)]="searchText" placeholder="Searching..." title="Type in a name">
+  </div>
+<div>
+    <table class="table">
+    <thead class= "thead">
+      <tr>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+        
+    <tbody class ="friendList">
+      <tr *ngFor= 'let temp of listUser | filter: searchText'>
+            
+            <td>
+              <a [routerLink] = "['/all-user-profile', temp.username]"> {{temp.firstName}}</a>
+            </td>
+            <td>
+              <a [routerLink] = "['/all-user-profile', temp.username]"> {{temp.lastName}}</a>
+            </td>
+            <td>
+              <a [routerLink] = "['/all-user-profile', temp.username]"> {{temp.username}}</a>
+            </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+

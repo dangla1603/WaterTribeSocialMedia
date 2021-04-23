@@ -1,0 +1,16 @@
+.form-background{
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.title{
+
+    text-align: center;                         /* align the position with text */
+    font-size: 40px;                            /* size */
+    color: rgb(20, 13, 13);
+     margin-top: 50px;                           /* margin from the nav bar */
+    font-family: 'Syne Mono', monospace;
+}
