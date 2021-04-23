@@ -76,7 +76,7 @@ To-do list:
 ![forget](https://user-images.githubusercontent.com/43182305/115811129-c5a07480-a3b4-11eb-9d7f-8ae2c98abe82.PNG)
 
 ## Contributors
-  Team Water Tribe
+  * Team Water Tribe
     * Christian Kent      - https://github.com/kentx178
     * Chris Bonner        - https://github.com/Skorne
     * Nicholas Haselden   - https://github.com/nwhaselde
