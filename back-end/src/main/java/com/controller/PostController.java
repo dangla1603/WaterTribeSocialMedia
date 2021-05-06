@@ -42,6 +42,7 @@ public class PostController {
     public void likeAPost(@RequestBody Post post, HttpSession ses){
         post.getLikes().add((User)ses.getAttribute("loggedInUser"));
         postService.updatePost(post);
+        System.out.println("hi");
 	}
 
 		
