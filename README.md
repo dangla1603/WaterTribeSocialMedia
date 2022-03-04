@@ -2,7 +2,7 @@
 
 ## Project Description
 
-In this web application every Revature employee can connect to other employees, whether it be an associate, a trainer, or contracted employees. Each person has their own account, that comes with a unique username, Revature employee information. Within this network employees can access locations and information to help them with many different possibilities. Also it is being created to ease the transition as a Revature employee, whether it be as a trainer/associate, contracted employee/contractor, or staff member.
+In this web application every employee can connect to other employees, whether it be an associate, a trainer, or contracted employees. Each person has their own account, that comes with a unique username, employee information. Within this network employees can access locations and information to help them with many different possibilities. Also it is being created to ease the transition as a employee, whether it be as a trainer/associate, contracted employee/contractor, or staff member.
 
 ## Technologies Used
 
