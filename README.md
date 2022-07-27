@@ -1,4 +1,4 @@
-# Revature Social Network v2 (Second Iteration)
+# Social Network v2 (Second Iteration)
 
 ## Project Description
 
